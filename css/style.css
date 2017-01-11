@@ -1,0 +1,551 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 910px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phone img {
+    margin: 0 4px 0 9px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #0f3b60;
+}
+
+.phone span {
+    margin-right: 7px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #5e696d;
+}
+
+.reg {
+    display: flex;
+    align-items: center;
+    width: 495px;
+    height: 26px;
+    margin: -2px 0 0 10px; 
+    background-color: #154c6f;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+}
+
+.reg img {
+    margin: 0 4px 0 8px;
+}
+
+.reg input {
+    margin: 0 6px 2px 0;
+    width: 110px;
+    height: 10px;
+}
+
+.reg .auth {
+    margin: -3px -1px 0 -1px; 
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+
+.reg .f_pass {
+    margin: -3px 10px 0 19px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.reg p {
+    margin-top: -3px;
+    font-size: 11px;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    align-items: flex-end;
+    height: 20px;
+    width: 74px;
+    margin: -2px 0 0 17px;
+    border: 1px solid #c1c8cb;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    border-radius: 15px;
+}
+
+.icons img {
+    padding: 7px 3px 4px 6px;
+}
+ 
+.banner {
+    margin: 10px 0 3px 0;    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 910px;
+    height: 34px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    background-color: #1c1f22;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+nav .menu {
+    display: flex;
+    margin-left: 137px;    
+}
+
+.menu > li > a {
+    margin-right: 10px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #b1bcc0;
+}
+
+.menu > li > a:hover {
+    padding: 0 9px;
+    background: #124569;
+    border: 1px solid #124569;
+    border-radius: 10px;
+    color: #fff;
+}
+
+nav img {
+    padding: 0 5px 0 45px;
+}
+
+nav span {
+    margin: -2px 1px 1px 0;
+    font-size: 11px;
+    color: #8a9296;
+}
+
+nav .numbers {    
+    margin: 0 14px 0 2px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #0d5a8f;
+}
+
+nav .space {
+    margin-right: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: -2px -1px 0 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;    
+    width: 413px;
+    height: 134px;
+    border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    margin-top: 12px;
+}
+
+.auto_search {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+}
+
+.header_1 {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #154468;
+    font-weight: bold;
+}
+
+.header_2 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #154467;
+    font-weight: bold;
+}
+
+.drives_and_tires {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+
+.drives_and_tires span {
+    display: block;
+}
+
+.list_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b_auto span {
+    display: inline-block;
+}
+
+.list_1 select {
+    margin: 0 0 2px 3px;
+    width: 100px;     
+}
+
+.year select {    
+    width: 55px;
+    margin-right: 45px;    
+}
+
+.list_1 span {
+    margin-top: 2px;
+}
+
+.text_1 {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+
+.text_2 {
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    color: #77858b;
+}
+
+.search a {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px 0 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #154467;
+    font-style: italic;
+}
+
+.middle {
+    width: 192px;
+    height: 134px;
+    margin-left: 2px; 
+    border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    margin-top: 12px;
+}
+
+.middle .header_2 {
+    margin-left: 10px;
+}
+
+.tires_size_1 {
+    display: block;
+    margin: 6px 0 0 14px;
+}
+
+.tires_size_1 select {
+    width: 50px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #000;
+}
+
+.tires_size_2 {
+    display: block;
+    margin: 6px 0 0 46px;
+}
+
+.tires_size_2 select {
+    width: 44px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #000;
+}
+
+.season {
+    display: flex;
+    margin: 6px 0 0 14px;
+}
+
+.check_season {
+    margin-left: 10px;
+}
+
+.check_season label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    color: #000;
+} 
+
+.check_season div * {
+    margin: 0 2px 0 0;
+}
+
+.check_season div {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.right {
+    width: 266px;
+    height: 134px;
+    margin-left: -2px;
+    border: 1px solid #b8b8b9;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    margin-top: 12px;
+}
+
+.right .header_2 {
+    margin-left: 10px;
+}
+
+.right .list_1 span {
+    margin-top: 20px;
+}
+
+.align_main_part {
+    display: flex;    
+}
+
+aside {
+    margin: 19px 0 0 1px; 
+    width: 185px;    
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 20px;
+    margin-bottom: 14px;
+    padding: 3px 5px 3px 2px;
+    border: 1px solid #8b979c;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+
+.catalog div {    
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: #0f3b60;
+}
+
+.catalog img {      
+    margin: 3px 0 0 4px;    
+}
+
+.catalog p {
+    padding-left: 2px;
+    font-family: "Lucida Sans Unicode", sans-serif; 
+    font-size: 12.73px;
+    color: #114165;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 1px;
+    width: 146px;
+    border: 1px solid #8b979c;
+    border-radius: 20px;
+}
+
+.item img {
+    width: 22px;
+    height: 22px;
+    margin: 0 3px 0 3px;
+}
+
+.item p {
+    margin-top: 2px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 14px;
+    color: #114165;
+}
+
+aside li {
+    margin: 8px 0 0 51px; 
+    list-style: circle;    
+}
+
+.list > li > a {
+    margin-left: -4px;
+    text-decoration: none;     
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12.73px;
+    color: #465961;
+}
+
+.list > li > a:hover {
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #0c3256;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;    
+    width: 527px;
+    height: 626px;
+    margin: 18px 10px 0 7px; 
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #e5e7e8, #a1b3bb);
+}
+
+.square {
+    list-style: square;
+}
+
+main span {
+    display: block;
+}
+
+figure {
+    width: 137px;
+    height: 127px;
+    text-align: center;
+    border: 1px solid #b0b9bc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+figure img {
+    margin: 5px 0 0 -2px;
+}
+
+.products {
+    margin: 13px 7px 12px 22px;
+}
+
+figcaption a {
+    display: block;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 15px; 
+    color: #206988;
+}
+
+figcaption span {
+    margin-left: 4px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px; 
+    color: #1f2528;
+}
+
+.products > span {
+    margin: 5px 0 0 12px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #114165;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.check {    
+    margin: 2px 0 0 20px;
+    line-height: 2;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 13px; 
+    color: #465961;
+}
+
+.check input {
+    margin-top: 3px;
+}
+
+.check label {
+    padding-bottom: 2px;
+    margin: 0 0 3px 2px;
+}
+
+aside button {
+    width: 80px;
+    height: 25px;
+    margin: 7px 0 0 25px;
+    border: 1px solid #154b6d;
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,1);
+    border-radius: 20px;
+    background-color: #154b6d;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: #e5e9ea;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;         
+    margin: 35px 0 20px 0;       
+}
+
+.brands img {
+    margin: 0 5px;
+}
+
+footer {
+    width: 910px;
+    height: 100px;
+    padding-top: 12px;
+    background-color: #213a4d;
+}
+
+.foot_menu ul {
+    display: flex;
+    justify-content: center;    
+}
+
+.foot_menu li a {
+    padding: 0 12px;
+    border-right: 1px solid #bec6c9;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    color: #bec6c9;
+}
+
+.foot_menu li a:hover {
+    color: #52abcb;
+}
+
+.foot_menu li .no_line {
+    border-style: none;
+}
+
+footer p {
+    margin-top: 15px; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #7f4740;
+}
